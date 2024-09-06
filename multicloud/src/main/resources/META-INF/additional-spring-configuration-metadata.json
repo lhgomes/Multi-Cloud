@@ -1,0 +1,44 @@
+{
+    "properties": [
+        {
+            "name": "nosql.type",
+            "type": "java.lang.String",
+            "description": "Datastore type. Valid values are: dynamodb, cosmosdb and redis"
+        },
+        {
+            "name": "nosql.table",
+            "type": "java.lang.String",
+            "description": "The name of the table to contain the item."
+        },
+        {
+            "name": "nosql.endpoint",
+            "type": "java.lang.String",
+            "description": "Sets the Azure Cosmos DB endpoint the SDK will connect to"
+        },
+        {
+            "name": "nosql.key",
+            "type": "java.lang.String",
+            "description": "Sets either a master or readonly Azure Cosmos DB key used to perform authentication for accessing resource."
+        },
+        {
+            "name": "nosql.database",
+            "type": "java.lang.String",
+            "description": "Sets the Azure Cosmos DB database id"
+        },
+        {
+            "name": "nosql.container",
+            "type": "java.lang.String",
+            "description": "Sets the Azure Cosmos DB container instance"
+        },
+        {
+            "name": "nosql.host",
+            "type": "java.lang.String",
+            "description": "Sets the Redis server hostname"
+        },
+        {
+            "name": "nosql.port",
+            "type": "java.lang.String",
+            "description": "Sets the Redis server port"
+        }
+    ]
+}
